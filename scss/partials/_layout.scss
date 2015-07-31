@@ -1,0 +1,37 @@
+section{
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+  background: url(../img/main-banner.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  padding: $spacing-unit*8 0;
+  text-align: center;
+}
+
+.slide{
+  //position: relative;
+  padding: $spacing-unit*3 0;
+
+  & .slide-row{
+    padding: $spacing-unit 0;
+    position: relative;
+
+  }
+}
+
+.light-slide{
+  background: $white;
+  //border-bottom: 3px solid darken($white, 4%);
+}
+
+.dark-slide{
+  background: $main-color;
+  color: $white;
+
+  h1,h2,h3,p{
+    color: $white;
+  }
+
+}

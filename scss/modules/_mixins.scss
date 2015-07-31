@@ -1,0 +1,54 @@
+
+/*Sass mixins*/
+
+@mixin animate($sec : .3s){
+    -webkit-transition: all $sec ease-in-out;
+    -moz-transition: all $sec ease-in-out;
+    -o-transition: all $sec ease-in-out;
+    -ms-transition: all $sec ease-in-out;
+    transition: all $sec ease-in-out;
+}
+
+@mixin scale($size){
+    -webkit-transform: scale($size);
+    -moz-transform: scale($size);
+    -o-transform: scale($size);
+    transform: scale($size);
+}
+
+@mixin trans($x){
+    -webkit-transform: translate($x);
+    -moz-transform: translate($x);
+    -o-transform: translate($x);
+    transform: translate($x);
+}
+
+@mixin trans-y($x,$y){
+    -webkit-transform: translate($x,$y);
+    -moz-transform: translate($x,$y);
+    -o-transform: translate($x,$y);
+    transform: translate($x,$y);
+}
+
+@mixin rotate($deg){
+    -webkit-transform:rotate($deg);
+    -moz-transform:rotate($deg);
+    -o-transition: rotate($deg);
+    transition: rotate($deg);
+}
+
+
+@mixin rotateZ($deg){
+    -webkit-transform:rotateZ($deg);
+    -moz-transform:rotateZ($deg);
+    -o-transition: rotateZ($deg);
+    transition: rotateZ($deg);
+}
+
+@mixin make_gradient($color-one, $color-two, $deg : 90deg){
+  background: -webkit-linear-gradient($deg, $color-one 10%, $color-two 90%);
+  background:    -moz-linear-gradient($deg, $color-one 10%, $color-two 90%);
+  background:     -ms-linear-gradient($deg, $color-one 10%, $color-two 90%);
+  background:      -o-linear-gradient($deg, $color-one 10%, $color-two 90%);
+  background:         linear-gradient($deg, $color-one 10%, $color-two 90%);
+}

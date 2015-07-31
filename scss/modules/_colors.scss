@@ -1,0 +1,118 @@
+
+//material design colors
+$red:                    #F44336;
+$red-700:                #D32F2F;
+$red-800:                #C62828;
+$pink:                   #E91E63;
+$pink-300:               #F06292;
+$purple:                 #9C27B0;
+$deep-purple:            #673AB7;
+$deep-purple-600:        #5E35B1;
+$indigo:                 #3F51B5;
+$indigo-600:             #3949AB;
+$blue:                   #2196F3;
+$light-blue:             #03A9F4;
+$cyan:                   #00BCD4;
+$teal:                   #009688;
+$teal-300:               #4DB6AC;
+$teal-600:               #00897B;
+$teal-700:               #00796B;
+$teal-800:               #00695C;
+$green-300:              #81C784;
+$green-400:              #66BB6A;
+$green:                  #4CAF50;
+$green-600:              #43A047;
+$green-700:              #388E3C;
+$light-green:            #8BC34A;
+$yellow:                 #FFEB3B;
+$deep-orange:            #FF5722;
+$brown:                  #795548;
+$blue-grey:              #607D8B;
+$blue-grey-50:           #ECEFF1;
+$blue-grey-100:          #CFD8DC;
+$blue-grey-200:          #B0BEC5;
+$blue-grey-600:          #546E7A;
+$blue-grey-700:          #455A64;
+$blue-grey-800:          #37474F;
+$blue-grey-900:          #263238;
+$grey:                   #9E9E9E;
+$grey-300:               #E0E0E0;
+$grey-800:               #424242;
+$white:                  #F5F5F5;
+$true-white:             #FFFFFF;
+
+
+//treehouse color palatte
+$android:                #5bb95f;
+$treehouse-grey:         #3d474f;
+$ruby:                   #dc5355;
+$php:                    #7d659e;
+$css:                    #2f79aa;
+$ios:                    #53bab4;
+$javascript:             #be5a76;
+$wordpress:              #828cc7;
+$java:                   #2c9675;
+$html:                   #39add2;
+$design:                 #e59a12;
+$digital-literacy:       #c08bd9;
+
+
+//codeschool color palatte
+$cs-ruby:                #dd6039;
+$cs-ios:                 #545789;
+$cs-grey:                #2c3033;
+
+$special-grey-blue-darken-10: #2b2f3b;
+$special-grey-blue:      #404757;
+$special-grey-blue-lighten-30: #8891aa;
+$special-grey-blue-lighten-20: #6b7694;
+
+//Flat UI Designmodo colors
+//light
+$turquoise:             #1ABC9C;
+$flat-green:            #2ECC71;
+$flat-blue:             #3498DB;
+$flat-purple:           #9B59B6;
+$flat-navy:             #34495E;
+$flat-yellow:           #F1C40F;
+$carrot:                #E67E22;
+$flat-red:              #E74C3C;
+$clouds:                #ECF0F1;
+$concrete:              #95A5A6;
+//dark
+$turquoise-dark:        #16A085;
+$flat-green-dark:       #27AE60;
+$flat-blue-dark:        #2980B9;
+$flat-purple-dark:      #8E44AD;
+$flat-navy-dark:        #2C3E50;
+$orange:                #F39C12;
+$pumpkin:               #D35400;
+$flat-red-dark:         #C0392B;
+$silver:                #BDC3C7;
+
+$black:                 #212121;
+$white:                 #F5F5F5;
+
+$allegheny-blue: #101f3b;
+$allegheny-blue: #223556;
+$allegheny-blue: $flat-navy-dark;
+$allegheny-yellow: darken(#fbb900, 5%);
+$allegheny-yellow: #f2c100;
+
+$main-color: $allegheny-blue;
+$second-color: $allegheny-yellow;
+
+
+
+
+$nav: $main-color;
+$nav-text: $white;
+$nav-link-hover: $second-color;
+
+
+$btn: $second-color;
+$btn-hover: darken($btn, 3%);
+
+$text: $silver;
+
+$footer: $black;
