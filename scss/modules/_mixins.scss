@@ -45,6 +45,17 @@
     transition: rotateZ($deg);
 }
 
+@mixin overlay($color, $alpha){
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba($color, $alpha);
+  z-index: -1;
+}
+
 @mixin make_gradient($color-one, $color-two, $deg : 90deg){
   background: -webkit-linear-gradient($deg, $color-one 10%, $color-two 90%);
   background:    -moz-linear-gradient($deg, $color-one 10%, $color-two 90%);

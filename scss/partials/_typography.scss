@@ -1,9 +1,25 @@
-.hero h1{
+.hero{
+  h1{
   font-size: $h1-font-size*1.5;
   color: $white;
+  }
+  h2{
+    color: darken($white, 10%);
+  }
+}
+
+
+.slide-title{
+  font-weight: bold;
 }
 
 .content p{
-  font-size: 1.2rem;
+  font-size: 1.325rem;
   color: $text;
+  font-weight: 300;
+
+}
+
+.fa{
+  padding: 0 $spacing-unit;
 }

@@ -125,7 +125,7 @@ $secondary-color: $second-color;
 
 // We use these to control various global styles
 // $body-bg: $white;
-// $body-font-color: $jet;
+$body-font-color: $treehouse-grey;
  $body-font-family: $google-font-family;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -140,7 +140,7 @@ $secondary-color: $second-color;
 // $last-child-float: $opposite-direction;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+ $global-radius: .25rem;
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
@@ -213,7 +213,7 @@ $secondary-color: $second-color;
 // $header-font-family: $body-font-family;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+ $header-font-color: $header-text;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -270,7 +270,7 @@ $h1-font-size: rem-calc(44);
 // We use these to style anchors
 // $anchor-text-decoration: none;
 // $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
+ $anchor-font-color: $second-color;
 // $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 
 // We use these to style the <hr> element
@@ -464,7 +464,7 @@ $h1-font-size: rem-calc(44);
 // We use these to control button border styles.
 // $button-border-width: 0;
 // $button-border-style: solid;
-// $button-bg-color: $primary-color;
+$button-bg-color: $secondary-color;
 // $button-bg-hover: scale-color($button-bg-color, $lightness: $button-function-factor);
 // $button-border-color: $button-bg-hover;
 // $secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor);

@@ -1,22 +1,28 @@
-section{
-  margin: 0;
-  padding: 0;
-}
 
 .hero{
   background: url(../img/main-banner.jpg) 50% 50% no-repeat;
   background-size: cover;
   padding: $spacing-unit*8 0;
   text-align: center;
+  z-index: 1;
+  position: relative;
+
+  &:after{
+    @include overlay($black, 0.4);
+  }
 }
 
 .slide{
-  //position: relative;
+  position: relative;
   padding: $spacing-unit*3 0;
-
+  z-index: 1;
   & .slide-row{
     padding: $spacing-unit 0;
     position: relative;
+
+    h2{
+      text-align: center;
+    }
 
   }
 }
@@ -32,6 +38,23 @@ section{
 
   h1,h2,h3,p{
     color: $white;
+  }
+
+}
+
+.person p{
+  font-weight: bold;
+  color: $silver;
+}
+
+.solution{
+  background: url(../img/desk.jpg) 0% 20% no-repeat fixed;
+  background-size: cover;
+  h1,h2, .content p{
+    color: $white;
+  }
+  &:after{
+    @include overlay($black, 0.4);
   }
 
 }

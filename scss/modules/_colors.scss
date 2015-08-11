@@ -95,7 +95,7 @@ $white:                 #F5F5F5;
 
 $allegheny-blue: #101f3b;
 $allegheny-blue: #223556;
-$allegheny-blue: $flat-navy-dark;
+$allegheny-blue: $flat-navy;
 $allegheny-yellow: darken(#fbb900, 5%);
 $allegheny-yellow: #f2c100;
 
@@ -112,7 +112,7 @@ $nav-link-hover: $second-color;
 
 $btn: $second-color;
 $btn-hover: darken($btn, 3%);
-
-$text: $silver;
+$header-text: lighten($treehouse-grey, 3%);
+$text: lighten($treehouse-grey, 10%);
 
 $footer: $black;

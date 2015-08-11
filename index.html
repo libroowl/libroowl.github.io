@@ -3,15 +3,16 @@
 
 <head>
   <meta charset="utf-8" />
+  <meta name="theme-color" content="#2C3E50">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Foundation</title>
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/app.css" />
-  <script src="bower_components/modernizr/modernizr.js"></script>
+  <title>LibroZeus</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/app.min.css" />
 </head>
 
 <body>
-
+<div class="contain-to-grid">
   <nav class="top-bar" data-topbar>
 
     <ul class="title-area">
@@ -34,45 +35,43 @@
 
 
       <ul class="right">
-        <li class="divider"></li>
 
         <li>
-          <a class="active" href="#">About</a>
+          <a href="#about">About</a>
         </li>
 
-        <li class="divider"></li>
 
-        <li><a href="#">What We Do</a>
+        <li><a href="#solution">Solution</a>
         </li>
 
-        <li class="divider"></li>
 
-        <li><a href="#">Our Team</a>
+        <li><a href="#product">Product</a>
         </li>
 
-        <li class="divider"></li>
-
-        <li>
-          <a href="#">Contact</a>
+        <li><a href="#team">Our Team</a>
         </li>
+
+
       </ul>
 
     </section>
 
   </nav>
-
+</div>
   <div class="hero">
     <h1>Save. Learn. Succeed.</h1>
+    <h2>Get more for your textbooks. Power to the student.</h2>
+    <a href="#about" class="button radius">What is LibroZeus?</a>
   </div>
 
   <div class="main">
 
-    <section class="about slide light-slide">
-      <div id="banner" class="about-banner">
+    <section id="about" class="about slide light-slide">
+
         <div class="content container">
           <div class="row">
             <div class="large-8 large-offset-2 columns">
-              <h2 class="text-center">Our Mission</h2>
+            <h1 class="slide-title text-center">Our Mission</h1>
               <p>
                 Imagine a world where, you, the student are regarded not as source of revenue but what you should be considered, a student. With LibroZeus, we hope to give college students an affordable and convenient internet retail service where they can save, earn
                 profit, and market their used textbooks.
@@ -80,26 +79,93 @@
             </div>
           </div>
         </div>
-      </div>
+
+    </section>
+
+
+    <section id="solution" class=" slide solution">
+
+        <div class="content container">
+          <div class="row">
+            <div class="large-8 large-offset-2 columns">
+              <h1 class="slide-title text-center">Solution</h1>
+              <p>
+                LibroZeus strives to liberate students from the overpriced textbook industry by
+                creating a student community driven platform where students can buy or sell textbooks at reasonable prices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="product" class="slide ">
+      <div class="content">
+        <div class="page-header text-center">
+          <h1 class="slide-title">How Selling Works</h1>
+        </div>
+        <div class="slide-row">
+          <div class="row">
+            <div class="large-4 columns columns">
+
+              <h2>List It</h2>
+
+              <img src="img/list.svg" alt="Mock up window" class="img-responsive">
+
+              <p>
+                Log into LibroZeus and find the book you are trying to sell. Click "sell my copy" and you are done.
+              </p>
+            </div>
+
+
+
+
+            <div class="large-4 columns">
+                <h2>We ship it</h2>
+                <img src="img/shipping.svg" alt="Money Coin" class="img-responsive">
+                <p>
+                  After selling your book, drop off the book at the school mail center. We will take care of the rest.
+                </p>
+            </div>
+
+
+
+
+
+
+
+            <div class="large-4 columns">
+              <h2>Get Paid</h2>
+
+              <img src="img/coin.svg" alt="Money Coin" class="img-responsive">
+
+              <p>
+                As soon as you sell the book you get paid. No need to wait or have a huge chunk of your earnings taken away.
+              </p>
+            </div>
+
+
+          </div>
+        </div>
+
     </section>
 
 
     <section class="slide ">
       <div class="content">
         <div class="page-header text-center">
-          <h1>How It Works</h1>
+          <h1 class="slide-title">What About Buying?</h1>
         </div>
         <div class="slide-row">
           <div class="row">
-            <div class="large-4 columns large-offset-1 columns">
-              <img src="img/sell.svg" alt="Mock up window" class="img-responsive">
-            </div>
-
-            <div class="large-6 columns">
-              <h2>List It</h2>
+            <div class="large-6  large-offset-1 columns">
+              <h2>Search for the book</h2>
               <p>
-                Log into LibroZeus and find the book you are trying to sell. Click "sell my copy" and you are done.
+                Log into LibroZeus and seach for your desired book by entering the ISBN, title, or class into the search bar or using the naviagtion bar.
               </p>
+            </div>
+            <div class="large-4 large-offset-1 columns ">
+              <img src="img/search.svg" alt="Mock up window" class="img-responsive">
             </div>
           </div>
         </div>
@@ -107,28 +173,29 @@
 
         <div class="slide-row">
           <div class="row">
-            <div class="large-4 large-offset-1 columns">
-                <h2>We ship it</h2>
+            <div class="large-6  large-offset-1 columns">
+                <h2>Click and Buy</h2>
                 <p>
-                  After selling your book, drop off the book at the school mail center. We will take care of the rest.
+                  LibroZeus is secure and does not store your credit card information for transactions. Use paypal to buy the item and the book is yours.
                 </p>
             </div>
+            <div class="large-4 columns ">
+              <img src="img/cart.svg" alt="Mock up window" class="img-responsive">
+            </div>
           </div>
         </div>
 
 
         <div class="slide-row">
           <div class="row">
-
-            <div class="large-4 large-offset-1 columns">
-              <img src="img/coin.svg" alt="Money Coin" class="img-responsive">
-            </div>
-
-            <div class="large-6 columns">
-              <h2>Get Paid</h2>
+            <div class="large-6 large-offset-1 columns">
+              <h2>Pick up your book</h2>
               <p>
-                As soon as you sell the book you get paid and the great news is that our fees are not greedy like Amazon or Ebay's fees!
+                Head down to the mail center and check your mailbox. Your textbook will be waiting.
               </p>
+            </div>
+            <div class="large-4 columns">
+              <img src="img/success.svg" alt="Money Coin" class="img-responsive">
             </div>
           </div>
         </div>
@@ -136,28 +203,34 @@
     </section>
 
 
-    <section class="slide dark-slide text-center">
+    <section id="team" class="slide dark-slide text-center">
+
+      <h1 class="slide-title">Meet the team</h2>
+
       <div class="row">
 
         <div class="large-4 medium-4 columns">
-          <h3>Arturo Alviar</h3>
-          <p>Lead Web Developer</p>
-          <p>Middlebury College '15</p>
-          <img src="https://cdn3.iconfinder.com/data/icons/pictofoundry-pro-vector-set/512/Avatar-512.png" class="img-responsive img-circle" alt="Responsive image">
+          <div class="person">
+            <h3>Arturo Alviar</h3>
+            <p>Dev</p>
+            <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png" class="img-responsive img-circle img-half-size" alt="Responsive image">
+          </div>
         </div>
 
         <div class="large-4 medium-4 columns">
+          <div class="person">
           <h3>Francisco Quezada</h3>
           <p>CEO</p>
-          <p>Allegheny College '16</p>
-          <img src="https://cdn3.iconfinder.com/data/icons/pictofoundry-pro-vector-set/512/Avatar-512.png" class="img-responsive img-circle" alt="Responsive image">
+          <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png" class="img-responsive img-circle img-half-size" alt="Responsive image">
+          </div>
         </div>
 
         <div class="large-4 medium-4 columns">
+          <div class="person">
           <h3>Eduardo Anaya</h3>
-          <p>Marketing Stratigist</p>
-          <p>Allegheny College '17</p>
-          <img src="https://cdn3.iconfinder.com/data/icons/pictofoundry-pro-vector-set/512/Avatar-512.png" class="img-responsive img-circle" alt="Responsive image">
+          <p>Marketing</p>
+          <img src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png" class="img-responsive img-circle img-half-size" alt="Responsive image">
+          </div>
         </div>
 
       </div>
@@ -165,16 +238,33 @@
     </section>
 
     <footer class="footer">
-      <p>Made with love in California. &copy; LibroZeus 2015. All Right Reserved</p>
+      <div class="row">
+        <div class="large-4 columns">
+        <p>&copy; LibroZeus 2015. All Right Reserved</p>
+        </div>
+        <div class="large-4 columns">
+          <a href="#">
+            <i class="fa fa-twitter fa-4x"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-facebook fa-4x"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-google-plus fa-4x"></i>
+          </a>
+
+        </div>
+      </div>
+
     </footer>
 
   </div>
   <!--end of main-->
 
 
-  <script src="bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="bower_components/foundation/js/foundation.min.js"></script>
-  <script src="js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="//cdn.jsdelivr.net/foundation/5.5.1/js/foundation.min.js"></script>
+  <script src="js/app.min.js"></script>
 </body>
 
 </html>

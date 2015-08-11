@@ -16,7 +16,24 @@ module.exports = function(grunt) {
         }
       }
     },
-
+    uglify: {
+      my_target: {
+        files: [{
+          'js/app.min.js': ['js/app.js']
+        }]
+      }
+    },
+    cssmin: {
+      options: {
+        shorthandCompacting: false,
+        roundingPrecision: -1
+      },
+      target: {
+        files: {
+          'css/app.min.css': ['css/app.css']
+        }
+      }
+    },
     watch: {
       grunt: {
         options: {
@@ -33,8 +50,10 @@ module.exports = function(grunt) {
   });
 
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('build', ['sass']);
-  grunt.registerTask('default', ['build','watch']);
+  grunt.registerTask('build', ['sass', 'uglify', 'cssmin']);
+  grunt.registerTask('default', ['build', 'watch']);
 }
