@@ -93,19 +93,18 @@ $silver:                #BDC3C7;
 $black:                 #212121;
 $white:                 #F5F5F5;
 
-$allegheny-blue: #101f3b;
-$allegheny-blue: #223556;
-$allegheny-blue: $flat-navy;
-$allegheny-yellow: darken(#fbb900, 5%);
-$allegheny-yellow: #f2c100;
 
-$main-color: $allegheny-blue;
-$second-color: $allegheny-yellow;
 
+$tapet-red: #cc3641;
+$tapet-purple: #354259;
+//392d3f
+$main-color: $tapet-red;
+$second-color: $tapet-purple;
 
 
 
-$nav: $main-color;
+
+$nav: $second-color;
 $nav-text: $white;
 $nav-link-hover: $second-color;
 

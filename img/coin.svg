@@ -8,7 +8,7 @@
 </g>
 <g id="coin">
 	<circle display="none" fill="#E67E22" stroke="#E67E22" stroke-width="20" stroke-miterlimit="10" cx="262" cy="254" r="150"/>
-	<circle fill="#F1C40F" stroke="#F39C12" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<circle fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
 	<g display="none">
 		<path display="inline" fill="#F39C12" d="M253.91,151.886c1.699-5.231,4.48-5.231,6.18,0l18.067,55.604
 			c1.699,5.231,7.59,9.511,13.09,9.511h58.466c5.5,0,6.354,2.638,1.898,5.862l-47.277,34.209
@@ -19,11 +19,21 @@
 	</g>
 	<g id="Layer_3">
 		<rect x="196.428" y="176.944" fill="none" width="107.143" height="146.111"/>
-		<text transform="matrix(1 0 0 1 200.9111 307.6631)" fill="#F39C12" font-family="'OpenSans-Bold'" font-size="172">$</text>
+		<text transform="matrix(1 0 0 1 200.9111 307.6631)" fill="#E5E2D0" font-family="'OpenSans-Bold'" font-size="172">$</text>
 	</g>
 </g>
-<g id="Layer_4" display="none">
-	<circle display="inline" fill="#34495E" stroke="#2C3E50" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+<g id="list" display="none">
+	<circle display="inline" fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<g display="inline">
+		<path fill="#E5E2D0" d="M319.201,192.331c-0.92-5.423-6.108-10.612-11.531-11.531l-40.739-6.909
+			c-5.423-0.919-13.041,1.51-16.931,5.399L179.29,250c-3.889,3.889-3.889,10.252,0,14.142l56.568,56.568
+			c3.889,3.89,10.253,3.89,14.143,0L320.71,250c3.89-3.889,6.319-11.508,5.399-16.931L319.201,192.331z M293.723,206.513
+			c-2.93-2.929-2.928-7.678,0-10.606c2.93-2.929,7.678-2.93,10.607,0c2.93,2.929,2.928,7.678,0,10.606
+			C301.4,209.442,296.652,209.442,293.723,206.513z"/>
+	</g>
+</g>
+<g id="shipping" display="none">
+	<circle display="inline" fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
 	<rect x="205" y="215" fill="#F2F2F2" width="90" height="70"/>
 	<g>
 		<path display="inline" fill="#F2F2F2" d="M330,305c0,5.522-4.478,10-10,10H210c-5.523,0-10-4.478-10-10l0,0
@@ -53,6 +63,43 @@
 				c-12.5,0-12.5,0-12.5-12.5s0-12.5,12.5-12.5c6.903,0,12.5,5.597,12.5,12.5C312.321,257.332,312.386,257.332,299.821,257.332z"/>
 		</g>
 		<path fill="#F2F2F2" d="M180,193v70h90v-70H180z M232,251h-15v-22h-9.013l16.5-25h0.367l16.133,25H232V251z"/>
+	</g>
+</g>
+<g id="search" display="none">
+	<circle display="inline" fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<g display="inline">
+		<g>
+			<path fill="#F2F2F2" d="M315.642,305.499c3.89,3.89,3.89,10.253,0,14.143l0,0c-3.89,3.89-10.253,3.89-14.143,0l-30.963-30.963
+				c-3.89-3.89-3.89-10.253,0-14.142s10.253-3.889,14.143,0.001L315.642,305.499z"/>
+		</g>
+		<g>
+			<path fill="#F2F2F2" d="M278.216,275.216c3.89,3.89,5.496,8.646,3.571,10.571s-6.682,0.318-10.571-3.571l-33.713-33.713
+				c-3.889-3.889-5.496-8.646-3.571-10.571s6.683-0.318,10.571,3.571L278.216,275.216z"/>
+		</g>
+		<circle fill="#CCCCCC" stroke="#F2F2F2" stroke-width="7" stroke-miterlimit="10" cx="227.287" cy="223.287" r="50"/>
+		<circle fill="#F2F2F2" cx="211.787" cy="210.787" r="12.5"/>
+	</g>
+</g>
+<g id="Layer_8" display="none">
+	<circle display="inline" fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<g display="inline">
+		<g>
+			<path fill="#F2F2F2" d="M213.768,303.587c-3.889,3.89-10.253,3.89-14.142,0l-38.891-38.89c-3.889-3.89-3.889-10.253,0-14.143
+				l14.143-14.142c3.889-3.889,10.253-3.889,14.142,0l38.89,38.89c3.889,3.89,3.889,10.253,0,14.143L213.768,303.587z"/>
+		</g>
+		<g>
+			<path fill="#F2F2F2" d="M339.265,195.199c3.89,3.889,3.89,10.253,0,14.143L229.664,318.942c-3.889,3.89-10.253,3.89-14.143,0
+				l-14.142-14.142c-3.889-3.89-3.889-10.253,0-14.143L310.98,181.057c3.89-3.889,10.253-3.889,14.143,0L339.265,195.199z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_7" display="none">
+	<circle display="inline" fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<g display="inline">
+		<polygon fill="#F2F2F2" points="217.5,284 207.5,274 328.48,274 336.5,193 186.5,193 196.5,294 326.5,294 327.49,284 		"/>
+		<circle fill="#F2F2F2" cx="224.75" cy="309.625" r="7.5"/>
+		<circle fill="#F2F2F2" cx="298.75" cy="309.625" r="7.5"/>
+		<rect x="163" y="183" fill="#F2F2F2" width="45" height="10"/>
 	</g>
 </g>
 </svg>

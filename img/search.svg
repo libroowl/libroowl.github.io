@@ -66,7 +66,7 @@
 	</g>
 </g>
 <g id="search">
-	<circle fill="#34495E" stroke="#2C3E50" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<circle fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
 	<g>
 		<g>
 			<path fill="#F2F2F2" d="M315.642,305.499c3.89,3.89,3.89,10.253,0,14.143l0,0c-3.89,3.89-10.253,3.89-14.143,0l-30.963-30.963
@@ -78,6 +78,28 @@
 		</g>
 		<circle fill="#CCCCCC" stroke="#F2F2F2" stroke-width="7" stroke-miterlimit="10" cx="227.287" cy="223.287" r="50"/>
 		<circle fill="#F2F2F2" cx="211.787" cy="210.787" r="12.5"/>
+	</g>
+</g>
+<g id="Layer_8" display="none">
+	<circle display="inline" fill="#D44650" stroke="#E5E2D0" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<g display="inline">
+		<g>
+			<path fill="#F2F2F2" d="M213.768,303.587c-3.889,3.89-10.253,3.89-14.142,0l-38.891-38.89c-3.889-3.89-3.889-10.253,0-14.143
+				l14.143-14.142c3.889-3.889,10.253-3.889,14.142,0l38.89,38.89c3.889,3.89,3.889,10.253,0,14.143L213.768,303.587z"/>
+		</g>
+		<g>
+			<path fill="#F2F2F2" d="M339.265,195.199c3.89,3.889,3.89,10.253,0,14.143L229.664,318.942c-3.889,3.89-10.253,3.89-14.143,0
+				l-14.142-14.142c-3.889-3.89-3.889-10.253,0-14.143L310.98,181.057c3.89-3.889,10.253-3.889,14.143,0L339.265,195.199z"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_7" display="none">
+	<circle display="inline" fill="#F1C40F" stroke="#F39C12" stroke-width="18" stroke-miterlimit="10" cx="250" cy="250" r="150"/>
+	<g display="inline">
+		<polygon fill="#F2F2F2" points="217.5,284 207.5,274 328.48,274 336.5,193 186.5,193 196.5,294 326.5,294 327.49,284 		"/>
+		<circle fill="#F2F2F2" cx="224.75" cy="309.625" r="7.5"/>
+		<circle fill="#F2F2F2" cx="298.75" cy="309.625" r="7.5"/>
+		<rect x="163" y="183" fill="#F2F2F2" width="45" height="10"/>
 	</g>
 </g>
 </svg>

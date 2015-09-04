@@ -58,3 +58,8 @@
   }
 
 }
+
+
+.flex{
+  @include flexbox();
+}
